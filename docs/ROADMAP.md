@@ -6,7 +6,7 @@ Status legend: `Not Started` / `In Progress` / `Done`
 
 | # | Feature | Doc | Status |
 |---|---------|-----|--------|
-| 1 | Terminal shell (UI layout, no real data) | [01-terminal-shell.md](features/01-terminal-shell.md) | Not Started |
+| 1 | Terminal shell (UI layout, no real data) | [01-terminal-shell.md](features/01-terminal-shell.md) | Done |
 | 2 | Data source selection (NBA data API) | [02-data-source-selection.md](features/02-data-source-selection.md) | Not Started |
 | 3 | Backend API setup (FastAPI) | [03-backend-api-setup.md](features/03-backend-api-setup.md) | Not Started |
 | 4 | Database setup (PostgreSQL) | [04-database-setup.md](features/04-database-setup.md) | Not Started |
