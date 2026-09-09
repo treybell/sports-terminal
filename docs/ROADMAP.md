@@ -9,7 +9,7 @@ Status legend: `Not Started` / `In Progress` / `Done`
 | 1 | Terminal shell (UI layout, no real data) | [01-terminal-shell.md](features/01-terminal-shell.md) | Done |
 | 2 | Data source selection (NBA data API) | [02-data-source-selection.md](features/02-data-source-selection.md) | Done |
 | 3 | Backend API setup (FastAPI) | [03-backend-api-setup.md](features/03-backend-api-setup.md) | Done |
-| 4 | Database setup (PostgreSQL) | [04-database-setup.md](features/04-database-setup.md) | Not Started |
+| 4 | Database setup (PostgreSQL) | [04-database-setup.md](features/04-database-setup.md) | Done |
 | 5 | Player & team search | [05-player-team-search.md](features/05-player-team-search.md) | Not Started |
 | 6 | Player & team profiles | [06-player-team-profiles.md](features/06-player-team-profiles.md) | Not Started |
 | 7 | Historical statistics | [07-historical-stats.md](features/07-historical-stats.md) | Not Started |
