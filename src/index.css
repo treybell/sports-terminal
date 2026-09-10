@@ -88,3 +88,33 @@ input {
   padding: 40px 16px;
   text-align: center;
 }
+
+.section-gap {
+  margin-top: 24px;
+}
+
+.roster-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.roster-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.roster-row:hover {
+  border-color: var(--accent);
+  color: var(--text-bright);
+}
+
+.roster-position {
+  color: var(--text-dim);
+  font-size: 12px;
+}

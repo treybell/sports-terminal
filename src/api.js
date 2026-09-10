@@ -15,3 +15,11 @@ export function searchTeams(query) {
 export function searchPlayers(query) {
   return get(`/players?search=${encodeURIComponent(query)}`)
 }
+
+export function getTeam(id) {
+  return get(`/teams/${id}`)
+}
+
+export function getPlayer(id) {
+  return get(`/players/${id}`)
+}
