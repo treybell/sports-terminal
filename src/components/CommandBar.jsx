@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import SearchBar from './SearchBar.jsx'
 
 function CommandBar() {
   const [time, setTime] = useState(new Date())
@@ -11,13 +12,7 @@ function CommandBar() {
   return (
     <header className="command-bar">
       <div className="command-bar-brand">SPORTS TERMINAL</div>
-      <div className="command-bar-search">
-        <span className="command-bar-prompt">&gt;</span>
-        <input
-          type="text"
-          placeholder="Search players, teams, matchups..."
-        />
-      </div>
+      <SearchBar />
       <div className="command-bar-clock">
         {time.toLocaleTimeString('en-US', { hour12: false })}
       </div>
